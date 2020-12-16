@@ -1,5 +1,7 @@
 body {
     font-family: Raleway, sans-serif;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 header {
@@ -31,21 +33,139 @@ nav li:not(:last-child) {
 
 nav a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
-.create-account-link{
+.create-account-link {
     color: #0065FC;
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
+    padding-top: 20px;
+}
+
+.general-content {
     padding: 20px;
 }
 
-.general-content{
-    margin: 20px;
+.intro{
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.search {
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-orientation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+}
+
+
+input {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #F2F2F2;
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.search-button {
+    width: 105px;
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    border-top-right-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+    cursor: pointer;
+}
+
+.filters {
+    display: flex;
+    margin-top: 25px;
+}
+
+.filters-title {
+    margin-right: 20px;
+}
+
+.filters button {
+    background-color: white;
+    font-weight: 700;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+    height: 45px;
+    padding: 0 15px 0 60px;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #F2F2F2;
+}
+
+.filter {
+    position: relative;
+    margin-right: 25px;
+}
+
+.icon-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+    z-index: 1;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.info-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #0065FC;
 }
 
