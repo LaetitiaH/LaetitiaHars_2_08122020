@@ -1,15 +1,10 @@
-.body-with-margin {
-    max-width: 380px;
-    margin: 0 auto;
-}
-
 /* START : Header section*/
 
-#desktop-header {
+#desktop-header, #desktop-search-button {
     display: none;
 }
 
-#mobile-header {
+#mobile-header, #mobile-search-button {
     display: block;
 }
 
@@ -21,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 nav {
@@ -62,7 +57,26 @@ nav a:hover {
 }
 
 .presentation-text {
-    padding: 0 30px;
+    padding: 0 20px;
+}
+
+.search {
+    justify-content: center;
+}
+
+.search-orientation-icon,
+.search button {
+    flex-basis: 50px;
+}
+
+.search label {
+    flex-basis: 100%;
+}
+
+.search button {
+    width: 40px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
 }
 
 .filters-list-title {
@@ -135,11 +149,6 @@ nav a:hover {
 }
 
 /* Footer */
-
-footer {
-    max-width: 380px;
-    margin: 20px auto 0 auto;
-}
 
 .footer-content {
     flex-direction: column;
