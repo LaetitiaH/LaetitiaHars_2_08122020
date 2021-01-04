@@ -3,7 +3,6 @@
     margin: 0 auto;
 }
 
-
 /* START : Header section*/
 
 #desktop-header {
@@ -99,16 +98,10 @@ nav a:hover {
 .accommodations-city {
     background-color: white;
     margin: unset;
-    /*padding: 0;*/
 }
-
-/*.section-title {*/
-/*    padding-left: 20px;*/
-/*}*/
 
 .hotel-cards-list {
     margin: 25px 0 0 0;
-    /*padding: 0 20px 20px 20px;*/
 }
 
 .hotel-cards-list-row {
@@ -141,3 +134,13 @@ nav a:hover {
     margin: unset;
 }
 
+/* Footer */
+
+footer {
+    max-width: 380px;
+    margin: 20px auto 0 auto;
+}
+
+.footer-content {
+    flex-direction: column;
+}
