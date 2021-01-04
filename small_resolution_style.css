@@ -55,3 +55,89 @@ nav a:hover {
 }
 
 /* END : Header section*/
+
+/* START : Presentation section*/
+
+.general-content {
+    padding: 0
+}
+
+.presentation-text {
+    padding: 0 30px;
+}
+
+.filters-list-title {
+    width: 100%;
+}
+
+.filter {
+    margin: 5px;
+}
+
+.info {
+    margin-top: 8px;
+}
+
+/* END : Presentation section*/
+
+/* START: Accommodation section*/
+
+.accommodations-section {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+}
+
+.accommodations-content {
+    border-radius: unset;
+    padding: 20px
+}
+
+.hotel-card-most-popular {
+    margin-bottom: 10px;
+}
+
+.accommodations-city {
+    background-color: white;
+    margin: unset;
+    /*padding: 0;*/
+}
+
+/*.section-title {*/
+/*    padding-left: 20px;*/
+/*}*/
+
+.hotel-cards-list {
+    margin: 25px 0 0 0;
+    /*padding: 0 20px 20px 20px;*/
+}
+
+.hotel-cards-list-row {
+    flex-direction: column;
+}
+
+.hotel-card {
+    margin: 0 0 10px 0;
+}
+
+/* END: Accommodation section*/
+
+.activities-section {
+    margin-top: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.activities-list {
+    display: flex;
+    flex-direction: column;
+    height: unset;
+}
+
+.activities-list > div {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.six-activity {
+    margin: unset;
+}
+
