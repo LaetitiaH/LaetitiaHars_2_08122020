@@ -1,5 +1,9 @@
+@font-face {
+    font-family: Raleway;
+    src: url('raleway/Raleway-Regular.ttf');
+}
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, serif;
     margin: 0;
 }
 
@@ -175,7 +179,7 @@ nav a:hover {
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .info-text {
@@ -253,7 +257,7 @@ a {
 }
 
 .hotel-card-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
