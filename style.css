@@ -8,7 +8,7 @@ body {
 }
 
 .body-with-margin {
-    max-width: 1400px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -186,11 +186,9 @@ h4 {
     font-weight: 100;
 }
 
-
 /* END : Presentation section*/
 
 /* START: Accommodation section*/
-
 
 .accommodations-section {
     display: flex;
@@ -204,7 +202,7 @@ h4 {
 }
 
 .accommodations-city {
-    flex-basis: 60%;
+    flex-basis: 70%;
     margin-right: 50px;
 }
 
@@ -214,7 +212,7 @@ h4 {
 }
 
 .hotel-cards-list {
-    margin: 25px 0 25px 0;
+    margin: 25px 0 20px 0;
 }
 
 .hotel-cards-list-row {
@@ -283,8 +281,7 @@ a {
 .accommodations-most-popular {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    flex-basis: 40%;
+    flex-basis: 30%;
 }
 
 .accommodation-most-popular-header {
@@ -295,7 +292,6 @@ a {
 }
 
 .hotel-card-most-popular {
-    flex: 1;
     margin-bottom: 25px;
     background-color: white;
     border-radius: 15px;
@@ -431,8 +427,12 @@ footer {
 }
 
 .footer-content {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 30px 0 30px;
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 footer ul {
