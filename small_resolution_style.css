@@ -1,51 +1,52 @@
 /* START : Header section*/
 
-#desktop-header, #desktop-search-button {
-    display: none;
+#desktop-search-button {
+  display: none;
 }
 
-#mobile-header, #mobile-search-button {
-    display: block;
+#mobile-search-button {
+  display: block;
 }
 
 header {
-    padding: 0
+  padding: 0;
 }
 
-.header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.logo {
+  padding: 20px 0 0 20px;
 }
 
-nav {
-    margin-top: 10px;
+.accommodations,
+.activities {
+  min-width: 50%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f2f2f2;
+  text-align: center;
+  margin-top: 20px;
 }
 
-nav ul {
-    width: unset;
-    padding: 0;
-    justify-content: initial;
+header a:hover {
+  padding-top: 0;
+  border-top: unset;
 }
 
-nav ul li {
-    display: flex;
-    flex: 1;
-    text-align: center;
+.accommodations:hover,
+.activities:hover {
+  border-bottom-color: #0065fc;
 }
 
-nav a {
-    width: 100%;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #f2f2f2;
+.accommodations {
+  order: 3;
 }
 
-nav a:hover {
-    border-bottom: 2px solid #0065fc;
-    padding-bottom: 20px;
-    padding-top: 0;
-    border-top: unset;
+.activities {
+  order: 4;
+}
+
+.create-account {
+  min-width: 30%;
+  order: 2;
+  padding: 20px 20px 0;
 }
 
 /* END : Header section*/
@@ -53,42 +54,42 @@ nav a:hover {
 /* START : Presentation section*/
 
 .general-content {
-    padding: 0
+  padding: 0;
 }
 
 .presentation-text {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .search {
-    justify-content: center;
+  justify-content: center;
 }
 
 .search-orientation-icon,
 .search button {
-    flex-basis: 50px;
+  flex-basis: 50px;
 }
 
 .search label {
-    flex-basis: 100%;
+  flex-basis: 100%;
 }
 
 .search button {
-    width: 40px;
-    border-top-left-radius: 8px 8px;
-    border-bottom-left-radius: 8px 8px;
+  width: 40px;
+  border-top-left-radius: 8px 8px;
+  border-bottom-left-radius: 8px 8px;
 }
 
 .filters-list-title {
-    width: 100%;
+  width: 100%;
 }
 
 .filter {
-    margin: 5px;
+  margin: 5px;
 }
 
 .info {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 /* END : Presentation section*/
@@ -96,61 +97,61 @@ nav a:hover {
 /* START: Accommodation section*/
 
 .accommodations-section {
-    flex-direction: column-reverse;
-    margin-top: 10px;
+  flex-direction: column-reverse;
+  margin-top: 10px;
 }
 
 .accommodations-content {
-    border-radius: unset;
-    padding: 20px
+  border-radius: unset;
+  padding: 20px;
 }
 
 .hotel-card-most-popular {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .accommodations-city {
-    background-color: white;
-    margin: unset;
+  background-color: white;
+  margin: unset;
 }
 
 .hotel-cards-list {
-    margin: 25px 0 0 0;
+  margin: 25px 0 0 0;
 }
 
 .hotel-cards-list-row {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .hotel-card {
-    margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 /* END: Accommodation section*/
 
 .activities-section {
-    margin-top: 20px;
-    padding: 0 20px 0 20px;
+  margin-top: 20px;
+  padding: 0 20px 0 20px;
 }
 
 .activities-list {
-    display: flex;
-    flex-direction: column;
-    height: unset;
+  display: flex;
+  flex-direction: column;
+  height: unset;
 }
 
 .activities-list > div {
-    height: 200px;
-    margin-bottom: 20px;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 .six-activity {
-    margin: unset;
+  margin: unset;
 }
 
 /* Footer */
 
 .footer-content {
-    flex-direction: column;
-    padding: unset;
+  flex-direction: column;
+  padding: 0;
 }

@@ -1,44 +1,36 @@
-/* START : Header section*/
-
-nav ul {
-    width: 300px;
-}
-
-/* END : Header section*/
-
 /* START: Accommodation section*/
 
 .accommodations-section {
-    flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .accommodations-content {
-    padding: 20px;
+  padding: 20px;
 }
 
 .hotel-cards-list {
-    display: flex;
+  display: flex;
 }
 
 .hotel-cards-list-row {
-    flex-direction: column;
-    flex: 1;
+  flex-direction: column;
+  flex: 1;
 }
 
 .accommodations-most-popular {
-    flex-basis: 100%;
-    margin-bottom: 20px;
+  flex-basis: 100%;
+  margin-bottom: 20px;
 }
 
 .accommodations-city {
-    height: 670px;
-    margin-right: 0;
-    flex-basis: 100%;
+  height: 670px;
+  margin-right: 0;
+  flex-basis: 100%;
 }
 
 .hotel-card,
 .hotel-card:last-child {
-    margin: 0 10px 10px 0;
+  margin: 0 10px 10px 0;
 }
 
 /* END: Accommodation section*/
@@ -46,15 +38,16 @@ nav ul {
 /* START : Activities section */
 
 .activities-list {
-    column-gap: 15px;
+  column-gap: 15px;
 }
 
-.five-activity, .six-activity {
-    margin-bottom: 5px;
+.five-activity,
+.six-activity {
+  margin-bottom: 5px;
 }
 
 .two-activity {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 /* END : Activities section */
